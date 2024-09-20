@@ -32,7 +32,7 @@ void calculadoraPonderada(){
 
     }
     double promedioPonderado = sumaDeNotasPonderadas / sumaDePonderaciones;
-    cout << "El promedio ponderado final es: " << promedioPonderado << endl;
+    cout << fixed << setprecision(2) << "El promedio ponderado final es: " << promedioPonderado << endl;
 
 }
 
